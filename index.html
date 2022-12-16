@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <ul>
+            <li>
+                <fieldset>
+                    <legend>Contact details</legend>           
+                    <li>
+                        <label class="input" for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </li>
+                    <li>
+                        <label class="input" for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                        <p class="helper">
+                            Please enter your full given name as stated on your passport
+                        </p>
+                    </li>
+                    <li>
+                        <label class="input" for="email_address">Email</label>
+                        <input type="email" id="email_address" name="email_address">
+                    </li>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset class="checkbox">
+                    <legend>Preferred volunteering days</legend>
+                    <li>
+                        <input type="checkbox" class="check" name="monday" id="monday">
+                        <label for="monday">Monday</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="check" name="tuesday" id="tuesday">
+                        <label for="tuesday">Tuesday</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="check" name="wednesday" id="wednesday">
+                        <label for="wednesday">Wednesday</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="check" name="thursday" id="thursday">
+                        <label for="thursday">Thursday</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="check" name="friday" id="friday">
+                        <label for="friday">Friday</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="check" name="saturday" id="saturday">
+                        <label for="saturday">Saturday</label>
+                    </li>
+                    <li>
+                        <p class="helper">
+                            Please state the days you would be willing to volunteer.
+                        </p>
+                    </li>
+                </fieldset>
+            </li>
+        </ul>
+    </form>
+    
+</body>
+</html>
