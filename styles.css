@@ -93,7 +93,7 @@ label, legend {
     margin-top: var(--spacing-s);
 }
 
-input {
+input, textarea {
     box-sizing: border-box;
     border: var(--line-s) solid var(--color-border);
     border-radius: 4px;
